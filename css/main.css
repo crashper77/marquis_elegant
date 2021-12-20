@@ -1,0 +1,520 @@
+body {
+  font-family: 'Ovo', serif; }
+
+/* Home Page Style */
+.ww-home-page {
+  background: url("../images/gallery/DSC08825.jpg") no-repeat center center;
+  background-size: cover;
+  background-position: 70%;
+  height: 115vh;
+  min-height: 480px;
+  max-height: 1080px; }
+  .ww-home-page .ww-wedding-announcement {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 100%;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    letter-spacing: 2px; }
+    .ww-home-page .ww-wedding-announcement .ww-announcement-container {
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 150px;
+      z-index: 999; }
+    .ww-home-page .ww-wedding-announcement img {
+      max-height: 350px;
+      width: auto; }
+      @media (max-width: 480px) {
+        .ww-home-page{
+          background-position: 50%;
+        }
+        .ww-home-page .ww-wedding-announcement img {
+          max-height: 250px;
+          width: auto; } }
+    .ww-home-page .ww-wedding-announcement .ww-couple-name {
+      padding-top: 120px;
+      font-size: 70px;
+      font-family: 'Niconne', cursive; }
+      @media (max-width: 576px) {
+        .ww-home-page .ww-wedding-announcement .ww-couple-name {
+          font-size: 50px; } }
+
+.ww-home-page:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+  min-height: 480px;
+  max-height: 1080px;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.ww-dear {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.ww-guest-name h6 {
+  color: #fff;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+/* Nav Bar Style */
+.ww-nav-bar .heart {
+  fill: #f26147;
+  position: relative;
+  top: 2px;
+  width: 40px;
+  -webkit-animation: pulse 1s ease infinite;
+          animation: pulse 1s ease infinite; }
+
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.3); }
+  100% {
+    transform: scale(1); } }
+
+.ww-nav-bar .nav-item {
+  font-size: 18px;
+  padding: 5px 0 5px 16px;
+  font-weight: 500; }
+
+/* Wedding Event Style */
+.ww-wedding-event ul {
+  list-style: none;
+  padding-left: 0; }
+
+  #events  {
+    width: 100%;
+    height: fit-content;
+    background: url("../images/logo/Group52.png") center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  #events h2 {
+    font-family: 'ovo', serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #FFE8A0;
+  }
+
+  #health {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(to bottom, #424240, #000);
+    position: relative;
+  }
+  
+  #health h2{
+    font-size: 50px;
+    font-family: 'ovo', serif;
+    color: #fff;
+  }
+
+  #health p{
+    color: #fff;
+    margin-bottom: 45px;
+  }
+
+/* Couple Friends Style  */
+.ww-couple-friends .carousel {
+  padding: 40px 0; }
+
+.ww-couple-friends .carousel-indicators {
+  bottom: 0px; }
+  .ww-couple-friends .carousel-indicators li {
+    background-color: #6c757d; }
+  .ww-couple-friends .carousel-indicators .active {
+    background-color: #f58a77; }
+
+#couple {
+  width: 100%;
+  height: fit-content;
+  background: url(../images/logo/Group51.png);
+  position: block;
+}
+
+#couple h2 {
+  font-size: 50px;
+  font-family: 'ovo', serif;
+  color: #FFE8A0;
+  margin-bottom: 50px;
+}
+
+#couple h3 {
+  font-family: 'ovo', serif;
+  color: #FFE8A0;
+}
+
+/* Photo Gallery Style */
+.ww-photo-gallery .ww-category-filter a {
+  display: inline-block;
+  margin: 0 10px 6px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px; }
+
+.ww-photo-gallery .ww-gallery {
+  min-height: 500px; }
+
+.ww-photo-gallery .card-columns .card {
+  border: none;
+  margin-bottom: 15px;
+  border-radius: none; }
+
+@media (max-width: 992px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 2;
+         column-count: 2; } }
+
+@media (max-width: 576px) {
+  .ww-photo-gallery .card-columns {
+    -moz-column-count: 1;
+         column-count: 1; } }
+
+#gallery {
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+}
+
+#gallery h2 {
+  font-family: 'ovo', serif;
+  font-size: 50px;
+  color: #90772A;
+  margin-bottom: 50px;
+}
+
+#prewedding {
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+}
+
+#prewedding h2 {
+  font-family: 'ovo', serif;
+  font-size: 50px;
+  color: #90772A;
+  margin-bottom: 50px;
+}
+
+/* RSVP Style */
+.ww-rsvp-detail {
+  background: linear-gradient(139.1deg, #684C41 -1.48%, #A7936D 100%) no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative; }
+  .ww-rsvp-detail .ww-rsvp-form {
+    padding-left: 20%; 
+  }
+    @media (max-width: 768px) {
+      .ww-rsvp-detail .ww-rsvp-form {
+        padding-left: 10%; }
+      .ww-rsvp-detail .img-form {
+        display: none;
+      }
+      }
+    @media (max-width: 576px) {
+      .ww-rsvp-detail .ww-rsvp-form {
+        padding-left: 0%; }
+      .ww-rsvp-detail .img-form {
+        display: none;
+      }
+     }
+    .ww-rsvp-detail .ww-rsvp-form .form-control {
+      /* background-color: rgba(222, 222, 222, 0.2); */
+      color: rgb(0, 0, 0);
+      /* border: 1px solid rgba(255, 255, 255, 0.6);  */
+    }
+    .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
+      color: #AE870F; }
+    .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
+      color: #AE870F; }
+    .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
+      color: #AE870F; }
+    .ww-rsvp-detail .ww-rsvp-form select.form-control option {
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff; }
+    .ww-rsvp-detail .ww-rsvp-form .btn-submit {
+      background-color: #AE870F;
+      padding: 0.45rem 1.5rem;
+      border: 0; }
+
+      .ww-rsvp-detail .img-form {
+        width: auto;
+        position: absolute;
+        height: 500px;
+        z-index: -1;
+      }
+
+.ww-rsvp-detail:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* Footer Style */
+
+.ww-footer {
+  background: linear-gradient(to right, #424240, #000);
+  color: #fff;
+}
+.ww-footer a.credit {
+  color: inherit;
+  border-bottom: 1px;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* Common Style */
+.ww-title {
+  font-family: 'Niconne', cursive;
+  color: #fff;
+}
+
+.ww-section {
+  padding: 100px 0; }
+
+#love-story {
+  width: 100%;
+  height: fit-content;
+  background: #fff;
+  position: relative;
+}
+
+#love-story h2{
+  color: #80630B;
+  font-size: 60px;
+  font-family: 'ovo', serif;
+}
+
+.btn-primary {
+  color: #fff; }
+
+.btn-outline-primary:hover {
+  color: #fff; }
+
+
+/* Countdown Timer */
+#countdown {
+  width: 100%;
+  height: fit-content;
+  background: url(../images/logo/Group53.png) no-repeat;
+  background-size: auto;
+}
+
+#countdown h2 {
+  font-size: 50px;
+  font-family: 'ovo', serif;
+  color: #FFE8A0;
+  margin-bottom: 50px;
+}
+
+.container-timer {
+  display: flex;
+  line-height: 1;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+.container-timer span {
+  display: block;
+  font-size: 15px;
+  margin: 5px 0;
+  color: rgb(255, 255, 255);
+}
+
+.container-timer #days {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000);
+  color: #ffffff;
+}
+.container-timer #hours {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000);
+  color: #ffffff;
+}
+.container-timer #minutes {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000);
+  color: #ffffff;
+}
+.container-timer #seconds {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000);
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .container-timer {
+  display: flex;
+  line-height: 1;
+  padding: 20px 0;
+  font-size: 40px;
+}
+
+.container-timer span {
+  display: block;
+  font-size: 15px;
+  margin: 5px 0;
+  color: rgb(255, 255, 255);
+}
+
+.container-timer #days {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000 100%);
+  color: #ffffff;
+}
+.container-timer #hours {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000 100%);
+  color: #ffffff;
+}
+.container-timer #minutes {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000 100%);
+  color: #ffffff;
+}
+.container-timer #seconds {
+  font-size: 30px;
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(to bottom, #CC9C14 -1.48%, #000 100%);
+  color: #ffffff;
+}
+}
+
+#btn-play {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #D3A412;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-play:hover {
+  background-color: #8a7022;
+}
+
+#btn-pause {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 99;
+  font-size: 25px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: #D3A412;
+  color: white;
+  cursor: pointer;
+}
+
+#btn-play:hover {
+  background-color: #8a7022;
+}
+
+#rsvp {
+  background: url(../images/logo/Group54.png) right bottom no-repeat;
+  background-size: cover;
+  height: fit-content;
+  position: relative; 
+}
+
+#rsvp h2 {
+  font-size: 50px;
+  font-family: 'ovo', serif;
+  color: #FFE8A0;
+  margin-bottom: 50px;
+}
+
+#rsvp h2::after {
+  content: "";
+  display: block;
+  background: url(../images/logo/Group64.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#wedding-gift {
+  background: #fff;
+  background-size: cover;
+  height: fit-content;
+  position: relative;
+}
+
+#wedding-gift h2 {
+  font-size: 50px;
+  font-family: 'ovo', serif;
+  color: #977F37;
+  margin-bottom: 50px;
+}
+
+#wedding-gift p {
+  color: #CC9C14;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#wedding-gift h5 {
+  font-size: 18px;
+  color: #977F37;
+}
+
+#wedding-gift h4 {
+  font-size: 30px;
+  color: #977F37;
+}
