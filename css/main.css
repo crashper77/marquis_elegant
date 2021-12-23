@@ -8,7 +8,7 @@ body {
   background-position: 70%;
   height: 115vh;
   min-height: 480px;
-  max-height: 1080px; }
+  max-height: 1080px;}
   .ww-home-page .ww-wedding-announcement {
     width: 100%;
     max-width: 1600px;
@@ -149,8 +149,14 @@ body {
   width: 100%;
   height: fit-content;
   background: url(../images/logo/Group51.png);
-  position: block;
-}
+  background-size: 100% 100%;
+  position: block;}
+  @media (max-width: 576px) {
+    #couple {
+      background-size: 100% 100%;
+      width: auto;
+    }
+  }
 
 #couple h2 {
   font-size: 50px;
@@ -322,9 +328,14 @@ body {
 #countdown {
   width: 100%;
   height: fit-content;
-  background: url(../images/logo/Group53.png) no-repeat;
-  background-size: auto;
-}
+  background: url(../images/logo/Group51.png) no-repeat;
+  background-size: 100%;}
+  @media (max-width: 576px) {
+    #countdown {
+      background-size: 100% 105%;
+      width: auto;
+    }
+  }
 
 #countdown h2 {
   font-size: 50px;
@@ -467,7 +478,7 @@ body {
   background: url(../images/logo/Group54.png) right bottom no-repeat;
   background-size: cover;
   height: fit-content;
-  position: relative; 
+  position: relative;
 }
 
 #rsvp h2 {
